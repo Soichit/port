@@ -1,0 +1,28 @@
+
+img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+
+md-card {
+    background-color: white;
+    color: lightgray;
+    margin: 2vh;
+}
+
+md-card-title {
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+}
+
+md-card-subtitle {
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 2vw;
+}
+
+.tab1 {
+    padding-left: 3em;
+}

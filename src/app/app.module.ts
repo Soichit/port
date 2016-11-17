@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 import { MaterialModule } from '@angular/material';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
