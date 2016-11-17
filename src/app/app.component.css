@@ -38,3 +38,18 @@ h5 {
 div {
     text-align: center;
 }
+
+a {
+    margin-right: 2.5vw;
+    cursor: pointer;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.highlighted{
+    color: gray;
+    text-decoration: underline;
+}
+
