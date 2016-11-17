@@ -2,7 +2,7 @@
 img {
     width: 15vw;
     height: 15vw;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 md-card {
@@ -14,15 +14,31 @@ md-card {
 md-card-title {
     font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
     font-weight: 200;
-    font-size: 3vw;
+    font-size: 3.5vw;
+    /*padding-right: 4vh;*/
 }
 
 md-card-subtitle {
     font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
     font-weight: 200;
-    font-size: 2vw;
+    font-size: 1.7vw;
+    /*padding-left: 5vh;*/
+}
+
+p {
+    font-size: 1.7vw;
+    color: gray;
 }
 
 .tab1 {
     padding-left: 3em;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    font-size: 1.7vw;
+    color: gray;
 }

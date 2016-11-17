@@ -1,29 +1,126 @@
 
 
-<md-card>
+<md-card (click)="onClick(1)">
   <md-card-title-group>
-      <img md-card-sm-image src="https://farm9.staticflickr.com/8644/16517781789_6ed90c5678.jpg">
+      <img md-card-sm-image src="http://i.imgur.com/ydoiDKQ.jpg">
       <md-card-title>PROJECT BABEL</md-card-title>
-      <md-card-subtitle>FRONT-END DEVELOPMENT FINAL PROJECT</md-card-subtitle>
+      <md-card-subtitle>FRONT-END DEVELOPMENT</md-card-subtitle>
   </md-card-title-group>
   <br />
-  <p>
-    <span class="tab1">This</span>
-    was our final project for our web development class. We got to practice leadership and teamwork skills through collaborating in groups of 4. We also collaborated with one of the database researchers in the Informatics department to expand a revolutionary search engine to help students and researchers find the most relevant scholarly article. Our job was the front-end part so we took their API with their search engine and implemented a way to see the data visually. We got one of the highest grades in class by spending a total amount close to 100 hours on this project.
-  </p>
+  <md-card-content *ngIf="selectionIndex == 1">
+    <p><span class="tab1">This</span>
+      was our final project for our web development class. We got to practice leadership and teamwork skills through collaborating in groups of 4. We also collaborated with one of the database researchers in the Informatics department to expand a revolutionary search engine to help students and researchers find the most relevant scholarly article. Our job was the front-end part so we took their API with their search engine and implemented a way to see the data visually. We got one of the highest grades in class by spending a total amount close to 100 hours on this project.</p>
+
+      <p><u>What I learned:</u></p>
+      <ul>
+        <li> Data Visualization </li>
+        <li> D3 </li>
+        <li> Collaboration </li>
+      </ul>
+  </md-card-content>
 </md-card>
 
-<md-card>
+<md-card (click)="onClick(2)">
   <md-card-title-group>
-      <img md-card-sm-image src="https://farm9.staticflickr.com/8644/16517781789_6ed90c5678.jpg">
-      <md-card-title>PROJECT 1</md-card-title>
-      <md-card-subtitle>SUBTITLES</md-card-subtitle>
+      <img md-card-sm-image src="http://i.imgur.com/jSMwiaI.jpg">
+      <md-card-title>SPOTIFY API PROJECT</md-card-title>
+      <md-card-subtitle>FRONT-END DEVELOPMENT</md-card-subtitle>
   </md-card-title-group>
+  <br />
+  <md-card-content *ngIf="selectionIndex == 2">
+    <p><span class="tab1">For</span>
+      this project, we used the Spotify API to make our own Spotify application but adding our own spice into it. I decided to combine the functionality of Twitter and Spotify so users can tweet about their favorite music on my web application. I got practice making a simple log in form with Angular and storing all the relevant information using Firebase.
+    </p>
+
+    <p><u>What I learned:</u></p>
+      <ul>
+        <li> Rest APIs </li>
+        <li> AngularJS </li>
+        <li> Firebase </li>
+      </ul>
+  </md-card-content>
 </md-card>
 
-<md-card>
+<md-card (click)="onClick(3)">
   <md-card-title-group>
-      <img md-card-sm-image src="https://farm9.staticflickr.com/8644/16517781789_6ed90c5678.jpg">
-      <md-card-title>PROJECT 1</md-card-title>
+      <img md-card-sm-image src="http://i.imgur.com/tNsxp4O.jpg">
+      <md-card-title>SHOOTINGS MAP</md-card-title>
+      <md-card-subtitle>FRONT-END DEVELOPMENT</md-card-subtitle>
   </md-card-title-group>
+  <br />
+  <md-card-content *ngIf="selectionIndex == 3">
+    <p><span class="tab1">This</span>
+       project takes in data for police shootings across the United States and displays it visually across a map. The map comes with filters to sort that data depending on what the user wants to see. I wanted to focus on the user-friendliness and aesthetics for the visual data.
+    </p>
+
+    <p><u>What I learned:</u></p>
+      <ul>
+        <li> JavaScript </li>
+        <li> jQuery </li>
+        <li> Leaflet Library </li>
+      </ul>
+  </md-card-content>
 </md-card>
+
+<md-card (click)="onClick(4)">
+  <md-card-title-group>
+      <img md-card-sm-image src="http://students.washington.edu/soichit/me/img/info200.jpg">
+      <md-card-title>PROJECT SUBLIMINAL</md-card-title>
+      <md-card-subtitle>UX & INFORMATION ARCHITECTURE</md-card-subtitle>
+  </md-card-title-group>
+  <br />
+  <md-card-content *ngIf="selectionIndex == 4">
+    <p><span class="tab1">This </span>
+      was my biggest achievement in terms of winning first place within the fundamental Informatics class of 150 students and over 35 groups. Our diverse group had many disagreements along the design process, and we never would’ve landed on the solution we had if it weren’t for our different perspectives. This project really helped me learn to communicate, collaborate, and most of all, emphasize to look at the world through the eyes of my teammates and the eyes of our users. We aimed to create a mobile solution that makes every relevant information instantly accessible. We went above and beyond, holding weekly meetings and even when there weren’t any project deadlines that week. One of the challenges was designing for our user persona who was completely blind and required noise cues.
+    </p>
+
+    <p><u>What I learned:</u></p>
+      <ul>
+        <li> Mobile Design </li>
+        <li> Wireframing </li>
+        <li> User Personas </li>
+      </ul>
+  </md-card-content>
+</md-card>
+
+<md-card (click)="onClick(5)">
+  <md-card-title-group>
+      <img md-card-sm-image src="http://students.washington.edu/soichit/me/img/info360.jpg">
+      <md-card-title>SMART SOLES</md-card-title>
+      <md-card-subtitle>DESIGN THINKING</md-card-subtitle>
+  </md-card-title-group>
+  <br />
+  <md-card-content *ngIf="selectionIndex == 5">
+    <p><span class="tab1">Designed</span>
+     an insole that can be inserted into your shoes to track unique data from your foot as well as a mobile app interface that displays that information in a user-friendly manner. I also documented our design process through the video (link provided to the right). Please click on the middle link to view some of the major design decisions we faced.
+    </p>
+
+    <p><u>What I learned:</u></p>
+      <ul>
+        <li> Empathetic Design </li>
+        <li> A/B Testing </li>
+        <li> Contextual Interviews </li>
+      </ul>
+  </md-card-content>
+</md-card>
+
+<!--<md-card (click)="onClick()">
+  <md-card-title-group>
+      <img md-card-sm-image src="">
+      <md-card-title></md-card-title>
+      <md-card-subtitle></md-card-subtitle>
+  </md-card-title-group>
+  <br />
+  <md-card-content *ngIf="selectionIndex == ">
+    <p><span class="tab1"></span>
+
+    </p>
+
+    <p><u>What I learned:</u></p>
+      <ul>
+        <li>  </li>
+        <li>  </li>
+        <li>  </li>
+      </ul>
+  </md-card-content>
+</md-card>-->

@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
+  private selectionIndex: number;
+
 
   constructor() { }
 
   ngOnInit() {
+    this.selectionIndex = 0;
   }
 
+  onClick(index: number) {
+    if (this.selectionIndex == index) {
+      this.selectionIndex = 0;
+    } else {
+      this.selectionIndex = index;
+    }
+  }
 }
