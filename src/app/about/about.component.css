@@ -1,0 +1,23 @@
+#about {
+    background-color: white;
+    color: gray;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+p {
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    display:block;
+    margin:auto;
+}
