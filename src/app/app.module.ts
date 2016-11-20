@@ -9,13 +9,15 @@ import { MaterialModule } from '@angular/material';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
+import { SafePipe } from './about/safe.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectsComponent,
     AboutComponent,
-    HeaderComponent
+    HeaderComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

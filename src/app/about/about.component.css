@@ -1,0 +1,48 @@
+#about {
+    /*background-color: white;*/
+    color: gray;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 1.7vw;
+    margin: 2vw;
+}
+
+a {
+    font-size: 1.5vw;
+    color: white;
+}
+
+#composite {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    /*display: block;
+    margin: auto;*/
+}
+
+iframe {
+    height: 50vw;
+}
+
+.icons {
+    width: 2vw;
+    height: 2vw;
+    color: white;
+    margin: 2vw;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.icons:hover {
+    filter: invert(50%);
+}
