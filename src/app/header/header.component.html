@@ -1,0 +1,18 @@
+
+
+<div id="header">
+  <h1>SOICHI</h1>
+  <h3>WELCOME TO MY PORTFOLIO</h3>
+  <h5>CLICK ANY PROJECTS YOU'RE INTERESTED IN</h5>
+  <h5 *ngIf="page == 'projects'">
+    <a class="highlighted" [routerLink]="['/projects']">PROJECTS</a>
+    <a class="unhighlighted" [routerLink]="['/about']">ABOUT</a>
+  </h5>
+  <h5 *ngIf="page == 'about'">
+    <a class="unhighlighted" [routerLink]="['/projects']">PROJECTS</a>
+    <a class="highlighted" [routerLink]="['/about']">ABOUT</a>
+  </h5>
+</div>
+
+<app-projects *ngIf="page == 'projects'"></app-projects>
+<app-about *ngIf="page == 'about'"></app-about>

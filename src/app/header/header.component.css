@@ -1,0 +1,59 @@
+
+body {
+  background-color: lightblue;
+  margin: 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+  font-weight: 200;
+}
+
+#header {
+    background-color: lightblue;
+    color: white;
+    padding-bottom: 20vh;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20vh;
+    font-size: 20vw;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 3.5vw;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+h5 {
+    margin-top: 0;
+    font-size: 1.5vw;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+div {
+    text-align: center;
+}
+
+a {
+    margin-right: 2.5vw;
+    cursor: pointer;
+}
+
+a:hover {
+    color: lightcyan;
+}
+
+.highlighted{
+    color: gray;
+    text-decoration: underline;
+}
+
+.unhighlighted {
+    color: white;
+    text-decoration: none;
+}

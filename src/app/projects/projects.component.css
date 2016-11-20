@@ -11,6 +11,10 @@ md-card {
     margin: 4vh;
 }
 
+md-card:hover {
+    background-color: lightcyan;
+}
+
 md-card-title {
     font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
     font-weight: 200;
