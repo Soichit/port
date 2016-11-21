@@ -1,8 +1,10 @@
 
 img {
-    width: 15vw;
-    height: 15vw;
-    border-radius: 5%;
+    width: 20vw;
+	height: 20vw;
+	border-radius: 5%;
+    margin-top: 0.5vw;
+	box-shadow: 0.8vw 0.8vw 1vw #aaa;
 }
 
 md-card {

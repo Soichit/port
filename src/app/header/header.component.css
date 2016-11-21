@@ -46,6 +46,7 @@ div {
 a {
     margin-right: 2.5vw;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -54,10 +55,8 @@ a:hover {
 
 .highlighted{
     color: gray;
-    text-decoration: underline;
 }
 
 .unhighlighted {
     color: white;
-    text-decoration: none;
 }

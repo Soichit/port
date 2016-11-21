@@ -2,7 +2,7 @@
 
 <md-card (click)="onClick(1)">
   <md-card-title-group>
-      <img md-card-sm-image src="http://i.imgur.com/ydoiDKQ.jpg">
+      <img md-card-sm-image src="http://i.imgur.com/PsGTHL8.jpg">
       <md-card-title>PROJECT BABEL</md-card-title>
       <md-card-subtitle>FRONT-END DEVELOPMENT</md-card-subtitle>
   </md-card-title-group>
@@ -82,12 +82,93 @@
 
 <md-card (click)="onClick(4)">
   <md-card-title-group>
+      <img md-card-sm-image src="http://i.imgur.com/us4GrC6.jpg">
+      <md-card-title>SHOOTINGS MAP (R)</md-card-title>
+      <md-card-subtitle>DATA VISUALIZATION</md-card-subtitle>
+  </md-card-title-group>
+  <br />
+  <md-card-content *ngIf="selectionIndex == 4">
+    <p><span class="tab1">This</span>
+      was another data visualization project I worked on, similar to the one above, but this was done with R, a powerful language for statistical computing. On the mappings project above, I used an AJAX call to retrieve a JSON file used to plot the markers, but here I got the data from a csv file. Then I plotted the longitude and latitude of each marker and labeled them appropriately. On top of that scatter map, I also played around with Plotly to make other data visualizations to help users better understand the data.
+    </p>
+
+    <p><u>What I learned:</u></p>
+      <ul>
+        <li> Data Visualization </li>
+        <li> R </li>
+        <li> Plotly </li>
+      </ul>
+
+    <p class="no-bottom"><u>Links:</u></p>
+    <div class="left-align" (click)="onClickLink()">
+      <a target="_blank" href="https://soichit.github.io/r-shootings-map/">Demo</a>
+      <a target="_blank" href="https://github.com/Soichit/r-shootings-map">Source Code</a>
+    </div>
+  </md-card-content>
+</md-card>
+
+<md-card (click)="onClick(5)">
+  <md-card-title-group>
+      <img md-card-sm-image src="http://i.imgur.com/9UL5cZn.jpg">
+      <md-card-title>ASSASSIN GAME</md-card-title>
+      <md-card-subtitle>ANDROID DEVELOPMENT</md-card-subtitle>
+  </md-card-title-group>
+  <br />
+  <md-card-content *ngIf="selectionIndex == 5">
+    <p><span class="tab1">A</span>
+      location-based, multiplayer game called Assassin (https://en.wikipedia.org/wiki/Assassin_ (game)) for mobile devices. For those unfamiliar with the game, Assassin, every participating player will be randomly assigned a target to kill, creating a “kill-chain”. If a player is able to kill their target, they will move onto their next target in their “kill-chain” and keep killing their targets until they are either eliminated themselves or there are 2 remaining players. The last 2 remaining players will fight in a sudden death to see who can approach their opponent faster and hit the “kill” button.
+    </p>
+
+    <p><u>What I learned:</u></p>
+      <ul>
+        <li> Android </li>
+        <li> LinkedLists </li>
+        <li> Google Maps API </li>
+      </ul>
+
+    <p class="no-bottom"><u>Links:</u></p>
+    <div class="left-align" (click)="onClickLink()">
+      <a target="_blank" href="https://github.com/Inouju/Assassin">Source Code</a>
+    </div>
+  </md-card-content>
+</md-card>
+
+<md-card (click)="onClick(6)">
+  <md-card-title-group>
+      <img md-card-sm-image src="http://i.imgur.com/dFf2vcz.jpg">
+      <md-card-title>GEO PAINT</md-card-title>
+      <md-card-subtitle>ANDROID DEVELOPMENT</md-card-subtitle>
+  </md-card-title-group>
+  <br />
+  <md-card-content *ngIf="selectionIndex == 6">
+    <p><span class="tab1">An</span>
+      app that uses the device's physical location as input for a simple drawing program. By carrying the device around, the user will be able to draw pictures based on their movements. Users will carry around a virtual "pen", producing a drawing visible on a map. Users will also be able to share these drawings with others, allowing for collaborative art.
+    </p>
+
+    <p><u>What I learned:</u></p>
+      <ul>
+        <li> Android </li>
+        <li> Google Maps API </li>
+        <li> GPS (Android) </li>
+      </ul>
+
+    <p class="no-bottom"><u>Links:</u></p>
+    <div class="left-align" (click)="onClickLink()">
+      <a target="_blank" href="https://github.com/Soichit/geo-paint">Source Code</a>
+    </div>
+  </md-card-content>
+</md-card>
+
+
+
+<md-card (click)="onClick(7)">
+  <md-card-title-group>
       <img md-card-sm-image src="http://students.washington.edu/soichit/me/img/info200.jpg">
       <md-card-title>PROJECT SUBLIMINAL</md-card-title>
       <md-card-subtitle>UX DESIGN</md-card-subtitle>
   </md-card-title-group>
   <br />
-  <md-card-content *ngIf="selectionIndex == 4">
+  <md-card-content *ngIf="selectionIndex == 7">
     <p><span class="tab1">This </span>
       was my biggest achievement in terms of winning first place within the fundamental Informatics class of 150 students and over 35 groups. Our diverse group had many disagreements along the design process, and we never would’ve landed on the solution we had if it weren’t for our different perspectives. This project really helped me learn to communicate, collaborate, and most of all, emphasize to look at the world through the eyes of my teammates and the eyes of our users. We aimed to create a mobile solution that makes every relevant information instantly accessible. We went above and beyond, holding weekly meetings and even when there weren’t any project deadlines that week. One of the challenges was designing for our user persona who was completely blind and required noise cues.
     </p>
@@ -107,14 +188,14 @@
   </md-card-content>
 </md-card>
 
-<md-card (click)="onClick(5)">
+<md-card (click)="onClick(8)">
   <md-card-title-group>
       <img md-card-sm-image src="http://students.washington.edu/soichit/me/img/info360.jpg">
       <md-card-title>SMART SOLES</md-card-title>
       <md-card-subtitle>DESIGN THINKING</md-card-subtitle>
   </md-card-title-group>
   <br />
-  <md-card-content *ngIf="selectionIndex == 5">
+  <md-card-content *ngIf="selectionIndex == 8">
     <p><span class="tab1">Designed</span>
      an insole that can be inserted into your shoes to track unique data from your foot as well as a mobile app interface that displays that information in a user-friendly manner. I also documented our design process through the video (link provided to the right). Please click on the middle link to view some of the major design decisions we faced.
     </p>
@@ -128,11 +209,42 @@
 
     <p class="no-bottom"><u>Links:</u></p>
     <div class="left-align" (click)="onClickLink()">
-      <a href="../assets/info360_design.docx" download>Download Deliverable</a>
+      <a href="../assets/info360_design.docx" download>Download Deliverable</a> 
       <a target="_blank" href="https://www.youtube.com/watch?v=GvWolXRuYsA">Video</a>
     </div>
   </md-card-content>
 </md-card>
+
+
+
+<md-card (click)="onClick(9)">
+  <md-card-title-group>
+      <img md-card-sm-image src="http://i.imgur.com/LRqea0o.jpg">
+      <md-card-title>PUZZLE GAME</md-card-title>
+      <md-card-subtitle>FRONT END DEVELOPMENT</md-card-subtitle>
+  </md-card-title-group>
+  <br />
+  <md-card-content *ngIf="selectionIndex == 9">
+    <p><span class="tab1">The</span>
+      Fifteen Puzzle (also called the Sliding Puzzle) is a simple classic game consisting of a 4x4 grid of numbered squares with one square missing. The object of the game is to arrange the tiles into numerical order by repeatedly sliding a square that neighbors the missing square into its empty space. This was a great project for me to practice using JavaScript to manipulate the DOM elements.
+    </p>
+
+    <p><u>What I learned:</u></p>
+      <ul>
+        <li> JavaScript </li>
+        <li> HTML </li>
+        <li> CSS </li>
+      </ul>
+
+    <p class="no-bottom"><u>Links:</u></p>
+    <div class="left-align" (click)="onClickLink()">
+      <a target="_blank" href="http://students.washington.edu/soichit/info343/puzzle/">Demo</a>
+      <a target="_blank" href="https://github.com/Soichit/puzzle">Source Code</a>
+    </div>
+  </md-card-content>
+</md-card>
+
+
 
 <!--<md-card (click)="onClick()">
   <md-card-title-group>
@@ -152,5 +264,11 @@
         <li>  </li>
         <li>  </li>
       </ul>
+
+    <p class="no-bottom"><u>Links:</u></p>
+    <div class="left-align" (click)="onClickLink()">
+      <a target="_blank" href="">Demo</a>
+      <a target="_blank" href="">Source Code</a>
+    </div>
   </md-card-content>
 </md-card>-->
