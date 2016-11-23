@@ -7,28 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
   private selectionIndex: number;
-  private clickedLink: boolean;
-
+  isSpecial:any;
 
   constructor() { }
 
   ngOnInit() {
     this.selectionIndex = 0;
-    this.clickedLink = true;
+    this.isSpecial = true;
   }
 
   onClick(index: number) {
-    if (this.selectionIndex == index) {
-      if (!this.clickedLink) {
-        this.selectionIndex = 0;
-      }
-    } else {
-      this.selectionIndex = index;
-    }
-    this.clickedLink = false;
+    this.selectionIndex = index;
   }
 
   onClickLink() {
-    this.clickedLink = true;
   }
 }

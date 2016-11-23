@@ -1,6 +1,6 @@
 
 
-<md-card (click)="onClick(1)">
+<md-card (click)="onClick(1)" [class.highlight]="selectionIndex != 1">
   <md-card-title-group>
       <img md-card-sm-image src="http://i.imgur.com/PsGTHL8.jpg">
       <md-card-title>PROJECT BABEL</md-card-title>
@@ -26,7 +26,7 @@
   </md-card-content>
 </md-card>
 
-<md-card (click)="onClick(2)">
+<md-card (click)="onClick(2)" [class.highlight]="selectionIndex != 2">
   <md-card-title-group>
       <img md-card-sm-image src="http://i.imgur.com/jSMwiaI.jpg">
       <md-card-title>SPOTIFY API PROJECT</md-card-title>
@@ -53,7 +53,7 @@
   </md-card-content>
 </md-card>
 
-<md-card (click)="onClick(3)">
+<md-card (click)="onClick(3)" [class.highlight]="selectionIndex != 3">
   <md-card-title-group>
       <img md-card-sm-image src="http://i.imgur.com/tNsxp4O.jpg">
       <md-card-title>SHOOTINGS MAP</md-card-title>
@@ -80,7 +80,7 @@
   </md-card-content>
 </md-card>
 
-<md-card (click)="onClick(4)">
+<md-card (click)="onClick(4)" [class.highlight]="selectionIndex != 4">
   <md-card-title-group>
       <img md-card-sm-image src="http://i.imgur.com/us4GrC6.jpg">
       <md-card-title>SHOOTINGS MAP (R)</md-card-title>
@@ -107,7 +107,7 @@
   </md-card-content>
 </md-card>
 
-<md-card (click)="onClick(5)">
+<md-card (click)="onClick(5)" [class.highlight]="selectionIndex != 5">
   <md-card-title-group>
       <img md-card-sm-image src="http://i.imgur.com/9UL5cZn.jpg">
       <md-card-title>ASSASSIN GAME</md-card-title>
@@ -133,7 +133,7 @@
   </md-card-content>
 </md-card>
 
-<md-card (click)="onClick(6)">
+<md-card (click)="onClick(6)" [class.highlight]="selectionIndex != 6">
   <md-card-title-group>
       <img md-card-sm-image src="http://i.imgur.com/dFf2vcz.jpg">
       <md-card-title>GEO PAINT</md-card-title>
@@ -161,7 +161,7 @@
 
 
 
-<md-card (click)="onClick(7)">
+<md-card (click)="onClick(7)" [class.highlight]="selectionIndex != 7">
   <md-card-title-group>
       <img md-card-sm-image src="http://students.washington.edu/soichit/me/img/info200.jpg">
       <md-card-title>PROJECT SUBLIMINAL</md-card-title>
@@ -188,7 +188,7 @@
   </md-card-content>
 </md-card>
 
-<md-card (click)="onClick(8)">
+<md-card (click)="onClick(8)" [class.highlight]="selectionIndex != 8">
   <md-card-title-group>
       <img md-card-sm-image src="http://students.washington.edu/soichit/me/img/info360.jpg">
       <md-card-title>SMART SOLES</md-card-title>
@@ -217,7 +217,7 @@
 
 
 
-<md-card (click)="onClick(9)">
+<md-card (click)="onClick(9)" [class.highlight]="selectionIndex != 9">
   <md-card-title-group>
       <img md-card-sm-image src="http://i.imgur.com/LRqea0o.jpg">
       <md-card-title>PUZZLE GAME</md-card-title>
@@ -239,7 +239,7 @@
     <p class="no-bottom"><u>Links:</u></p>
     <div class="left-align" (click)="onClickLink()">
       <a target="_blank" href="http://students.washington.edu/soichit/info343/puzzle/">Demo</a>
-      <a target="_blank" href="https://github.com/Soichit/puzzle">Source Code</a>
+      <a class="no-link">Private Source Code</a>
     </div>
   </md-card-content>
 </md-card>
