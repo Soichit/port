@@ -63,12 +63,15 @@ li {
 
 a {
     font-size: 1.7vw;
-    color: darkblue;
-    text-decoration: underline;
+    color: gray; 
     margin-left: 1em;
+    text-decoration: none;
+    border-bottom: 1px solid #111;
+    border-color: rgba(17,17,17,.2);
 }
 
 .no-link {
     color: gray;
-    text-decoration: none;
+    border-bottom: none;
+    cursor: default;
 }

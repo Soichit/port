@@ -1,16 +1,15 @@
 
 body {
-  background-color: lightblue;
+  background-color: rgb(140, 227, 255);
   margin: 0px;
 }
 
-body, h1, h3, h5 {
+body, h1, h3, h5, a, p {
     font-family: 'Raleway', 'Helvetica Neue', 'Lato', sans-serif;
     font-weight: 200;
 }
 
 #header {
-    background-color: lightblue;
     color: white;
     padding-bottom: 10vh;
 }
@@ -42,7 +41,7 @@ div {
 a {
     margin-right: 2.5vw;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
@@ -51,8 +50,11 @@ a:hover {
 
 .highlighted{
     color: gray;
+    border-bottom: 1px solid #111;
+    border-color: gray;
 }
 
 .unhighlighted {
     color: white;
+    border-bottom: none;
 }
