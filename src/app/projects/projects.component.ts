@@ -24,15 +24,15 @@ export class ProjectsComponent implements OnInit {
     this.selectionIndex = 0;
     this.isSpecial = true;
     //this.projects = JSON.parse(JSON.stringify(this.data));
-    console.log(this.data);
-    console.log(this.projects);
+     console.log(this.data);
+     console.log(this.projects);
   }
 
   onClick(index: number) {
     this.selectionIndex = index;
-    console.log(this.data);
-    console.log(this.data[0].title);
-    console.log(this.projects);
+    // console.log(this.data);
+    // console.log(this.data[0].title);
+    // console.log(this.projects);
     this.data = JSON.parse(JSON.stringify(this.data));
   }
 
