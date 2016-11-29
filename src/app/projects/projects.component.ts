@@ -8,14 +8,13 @@ import {Http, Response} from '@angular/http';
 })
 export class ProjectsComponent implements OnInit {
   private selectionIndex: number;
-  private isSpecial:any;
   @Input() data: Object;
 
-   constructor() {}
+
+  constructor() {}
 
   ngOnInit() {
-    this.selectionIndex = 0;
-    this.isSpecial = true;
+
   }
 
   onClick(index: number) {

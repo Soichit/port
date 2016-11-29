@@ -42,10 +42,12 @@ a {
     margin-right: 2.5vw;
     cursor: pointer;
     text-decoration: none;
+    color: white;
+    border-bottom: none;
 }
 
 a:hover {
-    color: lightcyan;
+    color: gray;
 }
 
 .highlighted{

@@ -1,13 +1,109 @@
 [
 {
 	"title": "Project Babel",
-    "subtitle": "Front-end Development",
+    "subtitle": "Front-End Development",
 	"description": "This was our final project for our web development class. We got to practice leadership and teamwork skills through collaborating in groups of 4. We also collaborated with one of the database researchers in the Informatics department to expand a revolutionary search engine to help students and researchers find the most relevant scholarly article. Our job was the front-end part so we took their API with their search engine and implemented a way to see the data visually. We got one of the highest grades in class by spending a total amount close to 100 hours on this project.",
-	"image": "https://i.imgur.com/WpJZBgv.jpg",
+	"image": "http://i.imgur.com/UcLJpAw.jpg",
     "learned": ["Data Visualization", "D3", "Collaboration"],
     "urls": [
         {"name": "Demo", "url": "http://students.washington.edu/soichit/info343/babel-collab/"},
         {"name": "Source Code", "url": "https://github.com/jamesp21/babel-collab"}
     ]
+},
+
+{
+	"title": "Spotify API Project",
+    "subtitle": "Front-End Development",
+	"description": "For this project, we used the Spotify API to make our own Spotify application but adding our own spice into it. I decided to combine the functionality of Twitter and Spotify so users can tweet about their favorite music on my web application. I got practice making a simple log in form with Angular and storing all the relevant information using Firebase.",
+	"image": "http://i.imgur.com/3Di5tvO.jpg",
+    "learned": ["Rest APIs", "AngularJS", "Firebase"],
+    "urls": [
+        {"name": "Demo", "url": "http://students.washington.edu/soichit/info343/spotify/"},
+        {"name": "Source Code", "url": "https://github.com/Soichit/spotify"}
+    ]
+},
+
+{
+	"title": "Shootings Map",
+    "subtitle": "Front-End Development",
+	"description": "This project takes in data for police shootings across the United States and displays it visually across a map. The map comes with filters to sort that data depending on what the user wants to see. I wanted to focus on the user-friendliness and aesthetics for the visual data.",
+	"image": "http://i.imgur.com/tNsxp4O.jpg",
+    "learned": ["JavaScript", "jQuery", "Leaflet Library"],
+    "urls": [
+        {"name": "Demo", "url": "http://students.washington.edu/soichit/info343/police-shooting2/"},
+        {"name": "Source Code", "url": "https://github.com/Soichit/police-shooting2"}
+    ]
+},
+
+{
+	"title": "Shootings Map (R)",
+    "subtitle": "Data Visualization",
+	"description": "This was another data visualization project I worked on, similar to the one above, but this was done with R, a powerful language for statistical computing. On the mappings project above, I used an AJAX call to retrieve a JSON file used to plot the markers, but here I got the data from a csv file. Then I plotted the longitude and latitude of each marker and labeled them appropriately. On top of that scatter map, I also played around with Plotly to make other data visualizations to help users better understand the data.",
+	"image": "https://i.imgur.com/wlKyd5e.jpg",
+    "learned": ["Data Visualization", "R", "Plotly"],
+    "urls": [
+        {"name": "Demo", "url": "https://soichit.github.io/r-shootings-map/"},
+        {"name": "Source Code", "url": "https://github.com/Soichit/r-shootings-map"}
+    ]
+},
+
+{
+	"title": "Assassin Game",
+    "subtitle": "Android Development",
+	"description": "A location-based, multiplayer game called Assassin (https://en.wikipedia.org/wiki/Assassin_ (game)) for mobile devices. For those unfamiliar with the game, Assassin, every participating player will be randomly assigned a target to kill, creating a “kill-chain”. If a player is able to kill their target, they will move onto their next target in their “kill-chain” and keep killing their targets until they are either eliminated themselves or there are 2 remaining players. The last 2 remaining players will fight in a sudden death to see who can approach their opponent faster and hit the “kill” button.",
+	"image": "https://i.imgur.com/ccbavLb.jpg",
+    "learned": ["Android", "LinkedLists", "Google Maps API"],
+    "urls": [
+        {"name": "Source Code", "url": "https://github.com/Inouju/Assassin"}
+    ]
+},
+
+
+{
+	"title": "Geo Paint",
+    "subtitle": "Android Development",
+	"description": "An  app that uses the device's physical location as input for a simple drawing program. By carrying the device around, the user will be able to draw pictures based on their movements. Users will carry around a virtual pen, producing a drawing visible on a map. Users will also be able to share these drawings with others, allowing for collaborative art.",
+	"image": "http://i.imgur.com/dFf2vcz.jpg",
+    "learned": ["Android", "Google Maps API", "GPS (Android)"],
+    "urls": [
+        {"name": "Source Code", "url": "https://github.com/Soichit/geo-paint"}
+    ]
+},
+
+{
+	"title": "Project Subliminal",
+    "subtitle": "UX Design",
+	"description": "This was my biggest achievement in terms of winning first place within the fundamental Informatics class of 150 students and over 35 groups. Our diverse group had many disagreements along the design process, and we never would’ve landed on the solution we had if it weren’t for our different perspectives. This project really helped me learn to communicate, collaborate, and most of all, emphasize to look at the world through the eyes of my teammates and the eyes of our users. We aimed to create a mobile solution that makes every relevant information instantly accessible. We went above and beyond, holding weekly meetings and even when there weren’t any project deadlines that week. One of the challenges was designing for our user persona who was completely blind and required noise cues.",
+	"image": "http://i.imgur.com/zBZe5wn.jpg",
+    "learned": ["Mobile Design", "Wireframing", "User Personas"],
+    "urls": [
+        {"name": "Presentation", "url": "https://drive.google.com/open?id=1DvYLcYdBJb4H835Mv547qNi6v90AhaoAiTz5yB2vPm0"},
+        {"name": "Personas Doc", "url": "https://drive.google.com/open?id=0B-AkJAeDE0N5SkZ2dDIzYng1eWc"}
+    ]
+},
+
+{
+	"title": "Smart Soles",
+    "subtitle": "Design Thinking",
+	"description": "We designed an insole that can be inserted into your shoes to track unique data from your foot as well as a mobile app interface that displays that information in a user-friendly manner. I also documented our design process through the video (link provided to the right).",
+	"image": "https://i.imgur.com/JXIu6nL.jpg",
+    "learned": ["Empathetic Design", "A/B Testing", "Contextual Interviews"],
+    "urls": [
+        {"name": "Deliverable", "url": "https://drive.google.com/open?id=0B-AkJAeDE0N5Q2JqMEotLVFJS00"},
+        {"name": "Video", "url": "https://www.youtube.com/watch?v=GvWolXRuYsA"}
+    ]
+},
+
+{
+	"title": "Puzzle Game",
+    "subtitle": "Front-End Development",
+	"description": "The Fifteen Puzzle (also called the Sliding Puzzle) is a simple classic game consisting of a 4x4 grid of numbered squares with one square missing. The object of the game is to arrange the tiles into numerical order by repeatedly sliding a square that neighbors the missing square into its empty space. This was a great project for me to practice using JavaScript to manipulate the DOM elements.",
+	"image": "https://i.imgur.com/is0DZ8p.jpg",
+    "learned": ["JavaScript", "HTML", "CSS"],
+    "urls": [
+        {"name": "Demo", "url": "http://students.washington.edu/soichit/info343/puzzle/fifteen.html"},
+        {"name": "(Private Source Code)", "class": "no-link"}
+    ]
 }
+
 ]

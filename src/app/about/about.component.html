@@ -1,5 +1,5 @@
 <div id="about">
-  <h3>ABOUT ME</h3>
+  <h3>{{ "About Me" | uppercase }}</h3>
   <img id="composite" src="https://i.imgur.com/g6TzfQG.jpg" />
 
 
@@ -12,12 +12,11 @@
     <a target="_blank" href="https://www.linkedin.com/in/soichit"><img class="icons" src="../assets/linkedin.png" /></a>
     <a target="_blank" href="https://www.youtube.com/user/Ohmmmmmful"><img class="icons" src="../assets/youtube.png" /></a>
     <br />
-    <!--<a id="resume-link" target="_blank" href="">DOWNLOAD RESUME</a>-->
-    <a id="resume-link">DOWNLOAD RESUME</a>
+    <a id="resume-link" target="_blank" href="https://drive.google.com/file/d/0B1t2mShPH8r2YlRxVEplMWkyRGs/view">{{ "Resume" | uppercase }}</a>
 
 
     <div id="my-video">
-      <h3>90 SECOND VIDEO ABOUT ME</h3>
+      <h3>{{"90 second video about me" | uppercase }}</h3>
       <iframe width="80%" height="300" [src]="url | safe"></iframe>
     </div>
 

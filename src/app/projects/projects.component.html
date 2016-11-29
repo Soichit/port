@@ -1,26 +1,25 @@
 
 
 
-<md-card *ngFor="let projects of data" (click)="onClick(1)" [class.highlight]="selectionIndex != 1">
+<md-card *ngFor="let projects of data; let i = index" (click)="onClick(i)" [class.highlight]="selectionIndex != i">
   <md-card-title-group>
       <img md-card-sm-image src = "{{ projects.image }}" >
-      <md-card-title>{{ projects.title | uppercase }}</md-card-title>
-      <md-card-subtitle>{{ projects.subtitle| uppercase}}</md-card-subtitle>
+      <md-card-title>{{ projects.title| uppercase }}</md-card-title>
+      <md-card-subtitle>{{ projects.subtitle | uppercase}}</md-card-subtitle>
   </md-card-title-group>
   <br />
-  <md-card-content *ngIf="selectionIndex == 1">
-    <p>&emsp;&emsp; {{ projects.description}}</p>
+  <md-card-content *ngIf="selectionIndex == i">
+    <p>&emsp;&emsp; {{ projects.description }}</p>
 
-      <p class="no-bottom"><u>What I learned:</u></p>
-      <!--<ul>
-          <li *ngFor="let item of {{ projects.learned }}"></li>
-      </ul>-->
-
-
-      <p class="no-bottom"><u>Links:</u></p>
+    <p class="no-bottom">What I learned:</p>
+    <ul>
+        <li *ngFor="let item of projects.learned"> {{ item }}</li>
+    </ul>
+    <p class="no-bottom">Links:</p>
       <div class="left-align" (click)="onClickLink()">
-        <a target="_blank" href="http://students.washington.edu/soichit/info343/babel-collab/">Demo</a>
-        <a target="_blank" href="https://github.com/jamesp21/babel-collab">Source Code</a>
+        <a *ngFor="let item of projects.urls" target="_blank" href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
       </div>
   </md-card-content>
 </md-card>
+
+

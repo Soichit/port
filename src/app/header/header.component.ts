@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
   private subscription: Subscription;
   private page: string;
   private data: Object;
-  //private projects: any;
+
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute, private http: Http) {
     this.subscription = activatedRoute.params.subscribe(
@@ -30,7 +30,6 @@ export class HeaderComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    //this.projects = JSON.parse(JSON.stringify(this.data));
   }
 
   ngOnDestroy() {

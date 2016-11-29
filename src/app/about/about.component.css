@@ -35,6 +35,10 @@ a {
     border-color: rgba(17,17,17,.2);
 }
 
+#resume-link:hover {
+    color: lightgray;
+}
+
 #composite {
     width: 30vw;
     height: 30vw;
@@ -51,7 +55,6 @@ iframe {
     width: 2vw;
     height: 2vw;
     margin: 2vw;
-    /*filter: invert(100%);*/
     cursor: pointer;
 }
 

@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { SafePipe } from './about/safe.pipe';
 import { RemoveQuotesPipe } from './projects/remove-quotes.pipe';
 
+
 @NgModule({
   declarations: [
     AppComponent,
