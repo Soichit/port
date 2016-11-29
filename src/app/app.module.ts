@@ -10,6 +10,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
 import { SafePipe } from './about/safe.pipe';
+import { RemoveQuotesPipe } from './projects/remove-quotes.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SafePipe } from './about/safe.pipe';
     ProjectsComponent,
     AboutComponent,
     HeaderComponent,
-    SafePipe
+    SafePipe,
+    RemoveQuotesPipe
   ],
   imports: [
     BrowserModule,
