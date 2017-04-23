@@ -1,14 +1,38 @@
 [
 
 {
-	"title": "Spotify API Project",
-    "subtitle": "Front-End Development",
-	"description": "For this project, we used the Spotify API to make our own Spotify application but adding our own spice into it. I decided to combine the functionality of Twitter and Spotify so users can tweet about their favorite music on my web application. I got practice making a simple log in form with Angular and storing all the relevant information using Firebase.",
-	"image": "http://i.imgur.com/3Di5tvO.jpg",
-    "learned": ["Rest APIs", "AngularJS", "Firebase"],
+	"title": "Web Crawler / Search Engine",
+    "subtitle": "Back-End Development",
+	"description": "The demo video shows my final back-end web application, where I implemented a search engine from scratch. This individual project took me a tedious 10 weeks since I’ve built everything from the word suggestion algorithm to a web crawler that crawled articles from www.cnn.com and www.bleacherreport.com to store it in my own database hosted on Azure. It was an incredibly rewarding project, creating a basic search engine from scratch within 10 weeks.",
+	"image": "http://i.imgur.com/ecnYlUL.jpg",
+    "learned": ["Microsoft Stack/ C#", "LAMP Stack", "Web Crawling"],
     "urls": [
-        {"name": "Demo", "url": "http://students.washington.edu/soichit/info343/spotify/"},
-        {"name": "Source Code", "url": "https://github.com/Soichit/spotify"}
+        {"name": "Demo", "url": "https://www.youtube.com/watch?v=RidZRpG0vuc"},
+        {"name": "Source Code", "url": "https://github.com/Soichit/INFO344"}
+    ]
+},
+
+{
+	"title": "Elections Data Visualization",
+    "subtitle": "Data Visualization",
+	"description": "We created a data visualization web application to analyze primary election results using R, a powerful language for statistical computing. After importing data from a csv file, we used the Shiny framework to allow users to manipulate the data to visualize the information they want to see. Our process is documented in our Github link.",
+	"image": "http://i.imgur.com/CHRxUBO.jpg",
+    "learned": ["Data Visualization", "R", "Shiny Library"],
+    "urls": [
+        {"name": "Demo", "url": "https://soichi.shinyapps.io/primary-elections/"},
+        {"name": "Source Code", "url": "https://github.com/wynhsu/primary-elections"}
+    ]
+},
+
+{
+	"title": "Shootings Map (R)",
+    "subtitle": "Data Visualization",
+	"description": "This was another data visualization project I worked on using the R language. On the mappings project above, I used an AJAX call to retrieve a JSON file used to plot the markers, but here I got the data from a csv file. Then I plotted the longitude and latitude of each marker and labeled them appropriately. On top of that scatter map, I also played around with Plotly to make other data visualizations to help users better understand the data.",
+	"image": "https://i.imgur.com/wlKyd5e.jpg",
+    "learned": ["Data Visualization", "R", "Plotly"],
+    "urls": [
+        {"name": "Demo", "url": "https://soichit.github.io/r-shootings-map/"},
+        {"name": "Source Code", "url": "https://github.com/Soichit/r-shootings-map"}
     ]
 },
 
@@ -25,14 +49,14 @@
 },
 
 {
-	"title": "Shootings Map (R)",
-    "subtitle": "Data Visualization",
-	"description": "This was another data visualization project I worked on, similar to the one above, but this was done with R, a powerful language for statistical computing. On the mappings project above, I used an AJAX call to retrieve a JSON file used to plot the markers, but here I got the data from a csv file. Then I plotted the longitude and latitude of each marker and labeled them appropriately. On top of that scatter map, I also played around with Plotly to make other data visualizations to help users better understand the data.",
-	"image": "https://i.imgur.com/wlKyd5e.jpg",
-    "learned": ["Data Visualization", "R", "Plotly"],
+	"title": "Spotify API Project",
+    "subtitle": "Front-End Development",
+	"description": "For this project, we used the Spotify API to make our own Spotify application but adding our own spice into it. I decided to combine the functionality of Twitter and Spotify so users can tweet about their favorite music on my web application. I got practice making a simple log in form with Angular and storing all the relevant information using Firebase.",
+	"image": "http://i.imgur.com/3Di5tvO.jpg",
+    "learned": ["Rest APIs", "AngularJS", "Firebase"],
     "urls": [
-        {"name": "Demo", "url": "https://soichit.github.io/r-shootings-map/"},
-        {"name": "Source Code", "url": "https://github.com/Soichit/r-shootings-map"}
+        {"name": "Demo", "url": "http://students.washington.edu/soichit/info343/spotify/"},
+        {"name": "Source Code", "url": "https://github.com/Soichit/spotify"}
     ]
 },
 

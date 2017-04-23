@@ -12,9 +12,9 @@ import {Http, Response} from '@angular/http';
 })
 
 export class HeaderComponent implements OnInit, OnDestroy {
-  private subscription: Subscription;
-  private page: string;
-  private data: Object;
+  subscription: Subscription;
+  page: string;
+  data: Object;
 
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute, private http: Http) {
