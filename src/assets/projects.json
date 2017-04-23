@@ -1,15 +1,4 @@
 [
-{
-	"title": "Project Babel",
-    "subtitle": "Front-End Development",
-	"description": "This was our final project for our web development class. We got to practice leadership and teamwork skills through collaborating in groups of 4. We also collaborated with one of the database researchers in the Informatics department to expand a revolutionary search engine to help students and researchers find the most relevant scholarly article. Our job was the front-end part so we took their API with their search engine and implemented a way to see the data visually. We got one of the highest grades in class by spending a total amount close to 100 hours on this project.",
-	"image": "http://i.imgur.com/UcLJpAw.jpg",
-    "learned": ["Data Visualization", "D3", "Collaboration"],
-    "urls": [
-        {"name": "Demo", "url": "http://students.washington.edu/soichit/info343/babel-collab/"},
-        {"name": "Source Code", "url": "https://github.com/jamesp21/babel-collab"}
-    ]
-},
 
 {
 	"title": "Spotify API Project",
@@ -44,6 +33,18 @@
     "urls": [
         {"name": "Demo", "url": "https://soichit.github.io/r-shootings-map/"},
         {"name": "Source Code", "url": "https://github.com/Soichit/r-shootings-map"}
+    ]
+},
+
+{
+	"title": "Project Babel",
+    "subtitle": "Front-End Development",
+	"description": "This was our final project for our web development class. We got to practice leadership and teamwork skills through collaborating in groups of 4. We also collaborated with one of the database researchers in the Informatics department to expand a revolutionary search engine to help students and researchers find the most relevant scholarly article. Our job was the front-end part so we took their API with their search engine and implemented a way to see the data visually. We got one of the highest grades in class by spending a total amount close to 100 hours on this project.",
+	"image": "http://i.imgur.com/UcLJpAw.jpg",
+    "learned": ["Data Visualization", "D3", "Collaboration"],
+    "urls": [
+        {"name": "Demo", "url": "http://students.washington.edu/soichit/info343/babel-collab/"},
+        {"name": "Source Code", "url": "https://github.com/jamesp21/babel-collab"}
     ]
 },
 
@@ -92,18 +93,5 @@
         {"name": "Deliverable", "url": "https://drive.google.com/open?id=0B-AkJAeDE0N5Q2JqMEotLVFJS00"},
         {"name": "Video", "url": "https://www.youtube.com/watch?v=GvWolXRuYsA"}
     ]
-},
-
-{
-	"title": "Puzzle Game",
-    "subtitle": "Front-End Development",
-	"description": "The Fifteen Puzzle (also called the Sliding Puzzle) is a simple classic game consisting of a 4x4 grid of numbered squares with one square missing. The object of the game is to arrange the tiles into numerical order by repeatedly sliding a square that neighbors the missing square into its empty space. This was a great project for me to practice using JavaScript to manipulate the DOM elements.",
-	"image": "https://i.imgur.com/is0DZ8p.jpg",
-    "learned": ["JavaScript", "HTML", "CSS"],
-    "urls": [
-        {"name": "Demo", "url": "http://students.washington.edu/soichit/info343/puzzle/fifteen.html"},
-        {"name": "(Private Source Code)", "class": "no-link"}
-    ]
 }
-
 ]

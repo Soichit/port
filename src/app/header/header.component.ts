@@ -26,7 +26,8 @@ export class HeaderComponent implements OnInit, OnDestroy {
         .map(res => res.json())
         .subscribe(data => this.data = data,
                     err => console.log(err),
-                    () => console.log('Completed'));
+                    //() => console.log('Completed'));
+                    );
   }
 
   ngOnInit() {
